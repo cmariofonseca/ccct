@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4% 9%;
+}
+
+.headers {
+  width: 100%
+}
+
+.title {
+  margin-bottom: 6%;
+}
+
+.text {
+  margin-bottom: 4%;
+}
+
+.long {
+  width: 100%;
+}
+
+.small {
+  width: 30%;
+}
+
+.contact {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+input[type="text"], .container select {
+  max-height: 20px;
+  padding: 10px 7px;
+}
+
+.footer {
+  margin: 10% 0 4% 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.buttonSuccess {
+  background-color: greenyellow;
+}
+
+.buttonProgress:hover {
+  background-color: green;
+}
+
+.fabProgress {
+  color: greenyellow;
+  position: absolute;
+  top: -6;
+  left: -6;
+  z-index: 1;
+}
+
+.buttonProgress {
+  color: greenyellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12;
+  margin-left: -12;
+}
